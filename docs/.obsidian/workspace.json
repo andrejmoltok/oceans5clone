@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "5dc7a41918b2e827",
+    "type": "split",
+    "children": [
+      {
+        "id": "58e2b3d1ee1c2e94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0ac85ec34664798",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Új lap"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7fbb166a0c0abad",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4341c9c748028d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ae428c888c422cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Fájlkezelő"
+            }
+          },
+          {
+            "id": "70c6eb2b8eb6050f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Keresés"
+            }
+          },
+          {
+            "id": "3e24e4aec96da816",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Könyvjelzők"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40d42c6835fe9a3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "79d9274c0725b79d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efe106142bbfa6d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Visszahivatkozások"
+            }
+          },
+          {
+            "id": "69b0267b3ea1a92f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Kimenő linkek"
+            }
+          },
+          {
+            "id": "e56cb42bc7d1ece2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d2753659e7fccf14",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Vázlat"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Gyors váltó megnyitása": false,
+      "graph:Grafikon nézet megnyitása": false,
+      "canvas:Új vászon létrehozása": false,
+      "daily-notes:Mai jegyzet megnyitása": false,
+      "templates:Sablon beszúrása": false,
+      "command-palette:Parancspaletta megnyitása": false
+    }
+  },
+  "active": "f0ac85ec34664798",
+  "lastOpenFiles": [
+    "Auth.md",
+    "Gameplay.md",
+    "How to play.md",
+    "Lobby.md",
+    "Menu.md"
+  ]
+}
