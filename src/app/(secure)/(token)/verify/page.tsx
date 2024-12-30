@@ -1,5 +1,4 @@
-"use server";
-
+import React from "react";
 import Client from "./Client";
 import ManagementAPIToken from "@/actions/token/management/ManagementAPIToken";
 import AuthAPIToken from "@/actions/token/auth/AuthAPIToken";
