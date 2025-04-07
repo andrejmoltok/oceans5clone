@@ -1,0 +1,64 @@
+.navbar {
+  margin: 0 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  background-color: #0c1446;
+  color: #87aca3;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 6px, rgba(0, 0, 0, 0.4) 0px 3px 6px;
+  align-items: center;
+}
+
+.spacer {
+  height: 64px;
+}
+
+.navlist {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.listitem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listitem a {
+  text-align: center;
+  text-decoration: none;
+  color: #87aca3;
+  display: block;
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+}
+
+.logo {
+  width: 100px;
+  height: 64px;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navlist > .listitem:nth-child(n + 2):nth-child(-n + 7):hover,
+.navlist a:hover {
+  background-color: #e77200;
+  color: #0c1446;
+}
+
+.navlist .listitem:nth-child(-n + 7),
+.navlist a {
+  cursor: pointer;
+}
