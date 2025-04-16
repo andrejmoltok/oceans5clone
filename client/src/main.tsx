@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Auth0Provider } from '@auth0/auth0-react';
 import { Provider } from 'react-redux'
 import { store } from './store/store'
 import './index.css'
@@ -11,7 +12,16 @@ if (container) {
   createRoot(container!).render(
     <StrictMode>
       <Provider store={store}>
-        <App />
+        <Auth0Provider
+          domain={import.meta.env.VITE_AUTH0_DOMAIN}
+          clientId={import.meta.env.VITE_AUTH0_CLIENT_ID}
+          authorizationParams={{
+            redirect_uri: import.meta.env.VITE_AUTH0_CALLBACK_URL,
+            audience: import.meta.env.VITE_AUTH0_AUDIENCE
+          }}
+        >
+          <App />
+        </Auth0Provider>
       </Provider>
     </StrictMode>,
   )
